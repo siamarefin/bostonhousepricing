@@ -15,4 +15,7 @@ Create New Environment
 conda create -p venv python==3.11 -y
 
 ```
+```
+conda install scikit-learn
+```
 
