@@ -18,8 +18,8 @@
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
-      <input type="text" name="CRIM" placeholder="Column1" required="required" /><br>
-    	<input type="text" name="ZN" placeholder="Column2" required="required" /><br>
+      <input type="text" name="CRIM" placeholder="Room" required="required" /><br>
+    	<input type="text" name="ZN" placeholder="bathroom" required="required" /><br>
         <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
     </form>
 
