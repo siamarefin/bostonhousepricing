@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'boston'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8657FB10CAC84E13B8013C6474805196 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CECABBDC294A442B9B9859A971ECF909 }}
