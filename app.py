@@ -29,8 +29,11 @@ def predict():
     final_input = scalar.transform(np.array(data).reshape(1,-1))
     print(final_input)
     output  = regmodel.predict(final_input)[0]
-    return render_template("home.html", prediction_text = "The House price prediction is {}".format(output))
+    return render_template("home.html", prediction_text = "The House price prediction is {}$".format(output))
 
+@app.route('/test')
+def test():
+    return "The app is running!"
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, port=8080, host="0.0.0.0")
