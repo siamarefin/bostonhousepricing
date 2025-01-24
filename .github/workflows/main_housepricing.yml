@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'HousePricing'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_21F5BBBDE43B40B7ADD17A184012A69D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2916FE064F334DEF9E4A2715444666F4 }}
